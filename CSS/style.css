@@ -1,0 +1,94 @@
+body{
+    background-color: teal;
+}
+
+* {
+    box-sizing: border-box;
+ }
+
+h1{
+    color: blue;
+    text-align: center;
+}
+
+h2{
+    color: red;
+    text-align: right;
+}
+
+input[type=text]{
+    width: 100%;
+}
+
+
+.submit{
+    color:aqua;
+    text-align: center;
+}
+
+#submit{
+    background-color: aqua; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+#text{
+    width: 80%;
+    background-color: yellow;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 20px 20px;
+    text-align: center;
+}
+    
+.textinput{
+    text-align:center;
+}
+
+.card {
+    color: white;
+    float: left;
+    width: calc(25% - 20px);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    height: 200px;
+ }
+ .card p {
+    font-size: 18px;
+ }
+ .cardContainer:after {
+    content: "";
+    display: table;
+    clear: both;
+ }
+ @media screen and (max-width: 600px) {
+    .card {
+       width: 100%;
+    }
+ }
+
+ .button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .btncenter{
+      text-align: center;
+  }
